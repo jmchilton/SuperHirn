@@ -15,7 +15,7 @@ class DeconvPeak;
 
 #include <list>
 #include <vector>
-
+#include <fstream>
 using namespace std;
 
 class Deisotoper 

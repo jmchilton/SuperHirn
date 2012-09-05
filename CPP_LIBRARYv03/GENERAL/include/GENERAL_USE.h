@@ -486,5 +486,8 @@ extern "C"{
 #include "LowessRegressionManager.h"
 #endif
 
+#include "string.h"
+#include "stdio.h"
+
 
 #endif

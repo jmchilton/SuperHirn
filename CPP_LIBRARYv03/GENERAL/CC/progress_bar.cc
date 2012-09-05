@@ -19,6 +19,7 @@
 
 #include "iostream"
 #include "stdlib.h"
+#include "stdio.h"
 #include "math.h"
 using namespace std;
 #include "progress_bar.h"

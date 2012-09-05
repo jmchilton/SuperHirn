@@ -9,6 +9,7 @@
 
 #include "CentroidPeak.h"
 #include "IsotopicDist.h"
+#include "stdio.h"
 
 #include <iostream>
 #include <algorithm>

@@ -214,7 +214,7 @@ $(OBJ_DIR):
 #  build the EXECUTABLE by linking the classes
 
 $(EXE_NAME): $(foreach o,$(OBJECTS),$(OBJ_DIR)$(o).o) 
-	$(CC) $(LIBS) -g -o $(EXE_NAME) $^ $(LFLAGS) 
+	$(CC) -g -o $(EXE_NAME) $^ $(LFLAGS) $(LIBS)
 
 #******************************************************************
 #  build the testing EXECUTABLE by linking the classes
